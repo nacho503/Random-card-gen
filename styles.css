@@ -12,8 +12,34 @@ body{
     height: 500px;
     width: 350px;
     border-radius: 17px;
+    box-shadow: 10px 5px 5px  rgba(0, 255, 0, 0.45);
 }
 
-.carta-top{}
-.carta-mid{}
-.carta-bottom{}
+.carta-top{
+    display: flex;
+    align-items: flex-start;
+    height: 150px;
+    font-size: 90px;
+}
+
+p{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.carta-mid{
+    display: flex; 
+    align-items: center;
+    justify-content: center;  
+    height: 200px;
+    font-size: 100px;
+}
+.carta-bottom{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 150px;
+    font-size: 90px;
+}
