@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 255, 0, 0.385)
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 500px;
+    width: 350px;
+    border-radius: 17px;
+}
+
+.carta-top{}
+.carta-mid{}
+.carta-bottom{}
