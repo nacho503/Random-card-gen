@@ -2,7 +2,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 255, 0, 0.385)
+    background-color: rgba(3, 148, 3, 0.45);
 }
 
 .carta{
@@ -12,7 +12,7 @@ body{
     height: 500px;
     width: 350px;
     border-radius: 17px;
-    box-shadow: 10px 5px 5px  rgba(0, 255, 0, 0.45);
+    box-shadow: 10px 5px 5px  rgba(1, 36, 1, 0.158);
 }
 
 .carta-top{
@@ -20,13 +20,12 @@ body{
     align-items: flex-start;
     height: 150px;
     font-size: 90px;
+    padding-left: 30px
 }
 
 p{
     margin-top: 0 !important;
     margin-bottom: 0 !important;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .carta-mid{
@@ -42,4 +41,32 @@ p{
     justify-content: flex-end;
     height: 150px;
     font-size: 90px;
+    padding-right: 30px;
+}
+
+.red{
+    color: red;
+}
+
+.black{
+    color: black;
+}
+
+
+.heart::after{ 
+    content: "♥";
+    color: red;
+}
+.diamond::after{ 
+    content: "♦";
+    color: red;
+}
+
+.club::after{
+    content: "♣";
+    color: black;
+}
+.spades::after{
+    content: "♠";
+    color: black;
 }
